@@ -1,0 +1,19 @@
+
+.all{
+    padding:50px 250px 0 30px;
+}
+
+.about{
+
+    background-color: #F0F7D4;
+    padding: 0 20px;
+
+}
+
+p{
+    line-height: 1.6rem;
+    color: #585656;
+    font-family: 'Muli', sans-serif;
+    text-align: justify;
+    font-size: 18px;
+}

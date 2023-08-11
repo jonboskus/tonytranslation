@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.all{
+    padding:50px 250px 20px 30px;
+}
+
+
+.services{
+
+    background-color: #F0F7D4;
+    padding: 0 20px;
+
+}
+h2{
+    line-height: 38px;
+        color: #585656;
+        text-align: justify;
+        font-size: 32px;
+        padding-left: 25px;
+
+    }
+
+    ul{
+        line-height: 1.6rem;
+        color: #585656;
+        font-family: 'Muli', sans-serif;
+        text-align: justify;
+        font-size: 18px;
+    }
+    
