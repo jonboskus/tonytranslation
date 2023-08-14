@@ -4,13 +4,19 @@
 }
 
 .all{
-    padding:50px 250px 20px 30px;
+    
+    display: flex;
+    gap: 80px;
 }
 
 
 .fill{
     background-color: #F0F7D4;
     padding: 0 20px;
+    width: 70%;
+    margin: 20px 50px 10px 20px;
+    border-radius: 5px;
+box-shadow: 0px 0px 20px 0px #585656;
     
 }
 
@@ -27,8 +33,9 @@ label,.identity{
     height: 3rem;
     border: none;
     border-radius: 5px;
+    box-shadow: 0 0 5px 0 #585656;
 }
-h2{
+#title{
     line-height: 38px;
         color: #585656;
         text-align: justify;
@@ -50,6 +57,8 @@ h2{
         border: none;
         height: 105px;
         resize: none;
+        border-radius: 5px;
+        box-shadow: 0 0 5px 0 #585656;
     }
 
     .submit{
@@ -62,4 +71,44 @@ h2{
         border: 2px solid #1C1C1C;
         letter-spacing: 1px;
         font-weight: 600;
+        cursor: pointer;
+        box-shadow: 0 0 5px 0 #585656;
     }
+
+    .price-bar{
+        min-width:200px;
+
+        width: 250px;
+        height: 300px;
+        background-color: #F0F7D4;
+        align-self: center;
+        padding: 0 20px;
+        margin: 0 20px 0 0;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px 0px #585656;
+        }
+        
+        #price{
+            text-align: none;
+            font-size: 14px;
+            line-height: 2rem;
+        
+        }
+
+@media (max-width: 930px){
+
+    .all{
+        flex-wrap: wrap;
+    }
+
+.fill{
+width: 100%;
+}
+
+.price-bar{
+    width: 100%;
+    height: auto;
+    margin: 20px 50px 10px 20px;
+
+}
+}
