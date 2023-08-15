@@ -48,18 +48,72 @@ box-shadow: 0px 0px 10px 0px #585656;
 }
 
 
-@media (max-width: 900px){
+@media (min-width: 871px) and (max-width: 1200px){
+
+    .about-paragraph{
+        line-height: 1.4rem;
+        font-size: 15px;
+}
+
+#price{
+    font-size: 13px;
+    line-height: 1.3rem;
+}
+
+}
+
+@media (min-width: 540px) and (max-width: 870px) {
 
     .all{
         flex-wrap: wrap;
     }
 
-.about{
-    width: 100%;
+    .about{
+        width: 100%;
+    }
+    
+    .price-bar{
+        width: 100%;
+        height: auto;
+    }
+
+    .about-paragraph{
+        line-height: 1.2rem;
+        font-size: 15px;
+        
+
 }
 
-.price-bar{
-    width: 100%;
-    height: auto;
+#price{
+    font-size: 13px;
+    line-height: 1.3rem;}
+
+}
+
+
+@media (max-width: 539px){
+
+    .all{
+        flex-wrap: wrap;
+    }
+
+    .about{
+        width: 100%;
+    }
+    
+    .price-bar{
+        width: 100%;
+        height: auto;
+    }
+
+    .about-paragraph{
+        line-height: 1.2rem;
+        font-size: 12px;
+        text-align:left;
+}
+
+#price{
+    font-size: 12px;
+    line-height: 1.3rem;
 }
 }
