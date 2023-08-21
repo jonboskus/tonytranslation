@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
+    padding: 0;
     
 }
 
@@ -23,12 +24,14 @@ li{
 display: flex;
 width: 100%;
 margin: 0;
+padding: 0;
 
 }
 
 iframe
 {
     height: 100vh;
+    margin: 0;
 }
 
 .heading{
@@ -213,7 +216,7 @@ background-color: #092834;
 
     .burger{
         display: block;
-        margin-left: 200px;
+        margin-left: 170px;
 
     }
 
