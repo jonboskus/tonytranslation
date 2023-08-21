@@ -99,10 +99,14 @@ html{
         }
         .services{
             width: 100%;
+            padding: 0;
+            margin: 20px 5px 10px 5px;
         }
 
         .price-bar{
             width: 100%;
+         
+            margin: 20px 5px 10px 5px;
         }
 
         #after-title, #price, .after{
