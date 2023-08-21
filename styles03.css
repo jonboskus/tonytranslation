@@ -79,7 +79,7 @@ label,.identity{
         min-width:200px;
 
         width: 250px;
-        height: 300px;
+        height: auto;
         background-color: #F0F7D4;
         align-self: center;
         padding: 0 20px;

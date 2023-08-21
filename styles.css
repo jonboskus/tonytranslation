@@ -5,6 +5,8 @@
     
 }
 
+
+
 body{
     width: 100%;
     overflow-x: hidden;
@@ -176,8 +178,10 @@ a{
 
     .heading{
         display: flex;
-width: 100%;       height: auto;
-background-color: #092834;
+        width: 100%;       
+        height: auto;
+        margin: 0 5px;
+        background-color: #092834;
 
     }
 
@@ -196,7 +200,7 @@ background-color: #092834;
     display: flex;
     margin-left: 300px;
     position: absolute;
-       right: 0;
+       right: -9px;
        height: auto;
        top: 3vh;
        background-color: #092834;
@@ -222,6 +226,15 @@ background-color: #092834;
 
 body{
     overflow-x: hidden;
+}
+
+iframe{
+    overflow-x: hidden;
+}
+
+#flex-item{
+    overflow-x: hidden;
+
 }
     
 }
